@@ -1,0 +1,12 @@
+html{
+  background-color: #efe5dc
+}
+
+.button{
+  color: white;
+  background: #38622d;
+  border-radius: 40px;
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+}

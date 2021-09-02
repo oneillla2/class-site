@@ -1,0 +1,12 @@
+html{
+  background-color: #e0eac7
+}
+
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  50% { transform: translate(-2px, 4px) rotate(5deg); }
+}

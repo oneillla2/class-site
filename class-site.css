@@ -1,0 +1,14 @@
+html{
+  background-color: pink
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  background-color: hotpink
+}
+
+ul{
+  list-style: square;
+  color: white;
+}
