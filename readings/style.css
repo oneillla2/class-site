@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html{
+  background-color: #000000;
+}
+
 img{
-  max-width: 100%;
+  max-width: 50%;
+  padding: 40px;
 }
