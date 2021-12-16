@@ -1,0 +1,35 @@
+*{
+  box-sizing:border-box;
+}
+
+img{
+  max-width:100%;
+}
+
+body{
+  font-size:50px;
+  font-style: strong;
+  color: white;
+}
+
+.container{
+  background:#b6a2ff;
+  display:flex;
+  flex-direction:row; /*row is default*/
+  flex-wrap:wrap;
+  height:500px;
+  justify-content:center;
+  align-items:center;
+  gap:10px; /*row gap, column gap*/
+}
+
+.item{
+  background:#2b50ff;
+  margin:10px;
+  width:200px;
+  height:200px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:100px;
+}

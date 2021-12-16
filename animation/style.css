@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+
+
+img{
+  max-width: 100%;
+}
+
+body{
+  animation: sunset 3s infinite linear alternate;
+}
+
+.box{
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  border-radius: 50px;
+  top: 40%;
+  left: 43%;
+  /*animation: spin 3s infinite linear;*/
+}
+
+.box:hover {
+  animation: spin 3s infinite linear;
+}
+
+@keyframes sunset {
+  0% {background: orange};
+  50% {background: pink}
+  100% {background: purple};
+}
+
+
+@keyframes spin {
+  0% {transform: rotate(0deg) scale(1);
+  background-color: orange;
+  }
+  50% {transform: rotate(180deg) scale(2);
+  background-color: purple;
+  }
+  100% {transform: rotate(360deg) scale(1);
+  background-color: orange;
+  }
+
+}

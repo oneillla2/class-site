@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 68%;
+  position: relative;
+  top:5px;
+}
+
+body{
+  background-color:#fff4e6;
+}
+
+p{
+  position: fixed;
+  font-size: 35px;
+  font-style: oblique;
+  color: #573911;
+  font-family: monospace;
+  top:30px;
+  left: 790px;
+  z-index: 9;
+}
+
+h1{
+  position: absolute;
+  display: inline-block;
+}

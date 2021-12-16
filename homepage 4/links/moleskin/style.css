@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 33%;
+  padding: 10px;
+}
+
+body{
+  background-color: #ea8671;
+}
+
+/*
+.park{
+  position: absolute;
+  width: 400px;
+  height: 800px;
+  background: url("pics/1.jpg") no-repeat;
+  display: inline-block;
+}
+
+.park:hover{
+  background: url("pics/a.png") no-repeat;
+}
+*/
+
+.park{
+  position: absolute;
+  left: 60px;
+  width: 480px;
+  height: 800px;
+  opacity: 1;
+  background: url('pics/1.jpg') no-repeat;
+  display: inline-block;
+  background-size: contain;
+}
+
+.park:hover{
+  background: url("pics/a.png") no-repeat;
+  background-size: contain;
+}
+
+.faith{
+  position: absolute;
+  left: 600px;
+  width: 480px;
+  height: 800px;
+  opacity: 1;
+  background: url("pics/2.jpg") no-repeat;
+  display: inline-block;
+  background-size: contain;
+}
+
+.faith:hover{
+  background: url("pics/b.png") no-repeat;
+  background-size: contain;
+}
+
+.lombard{
+  position: absolute;
+  left: 1140px;
+  width: 480px;
+  height: 800px;
+  opacity: 1;
+  background: url("pics/3.jpg") no-repeat;
+  display: inline-block;
+  background-size: contain;
+}
+
+.lombard:hover{
+  background: url("pics/c.png") no-repeat;
+  background-size: contain;
+}
+
+.honey{
+  position: absolute;
+  top: 880px;
+  left: 60px;
+  width: 480px;
+  height: 800px;
+  opacity: 1;
+  background: url("pics/4.jpg") no-repeat;
+  display: inline-block;
+  background-size: contain;
+}
+
+.honey:hover{
+  background: url("pics/d.png") no-repeat;
+  background-size: contain;
+}
+
+.frog{
+  position: absolute;
+  top: 880px;
+  left: 600px;
+  width: 480px;
+  height: 800px;
+  opacity: 1;
+  background: url("pics/5.jpg") no-repeat;
+  display: inline-block;
+  background-size: contain;
+}
+
+.frog:hover{
+  background: url("pics/e.png") no-repeat;
+  background-size: contain;
+}
+/*
+.secret-btn1{
+  position: fixed;
+  width: 200px;
+  top: 100px;
+  left: 100px;
+  opacity: 1;
+}
+.secret1{
+  height:150px;
+  position:fixed;
+  top:20px;
+  left:20px;
+  opacity:0;
+}
+.secret-btn1:hover + .secret1{
+  opacity:1;
+}
+*/

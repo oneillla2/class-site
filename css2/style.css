@@ -1,0 +1,19 @@
+html{
+  background-color: black
+}
+
+img{
+  max-width: 100%;
+}
+
+p{
+  margin: 50px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+  background-color: salmon;
+  font-family: 'DM Serif Display', serif;
+  line-height: 70px
+}

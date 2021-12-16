@@ -1,0 +1,208 @@
+*{
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 52%;
+  position: relative;
+  top: 10px;
+  z-index: 9;
+}
+
+html{
+  background-color: #f7f3ee;
+}
+
+p{
+  font-size: 20px;
+  font-family: monospace;
+  position: relative;
+  top: 10px;
+  z-index: 99;
+}
+
+/**
+.secret-bed{
+  background-color: #f3fbf2;
+  position: absolute;
+  top: 495px;
+  left: 400px;
+  width: 395px;
+  height: 220px;
+  z-index: 99;
+}
+.secret-plants{
+  background-color: #85ce6f;
+  position: absolute;
+  top: 420px;
+  left: 1090px;
+  width: 150px;
+  height: 300px;
+  z-index: 99;
+}
+.secret-guitar{
+  background-color: #cc0000;
+  position: absolute;
+  top: 430px;
+  left: 900px;
+  width: 100px;
+  height: 140px;
+  z-index: 99;
+}
+**/
+
+.secret-bed{
+  background-color: #573311;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 16px;
+  font-size: 20px;
+  color: white;
+  z-index: 99;
+}
+.secret-plants{
+  background-color: #573311;
+  position: fixed;
+  top: 80px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 16px;
+  font-size: 20px;
+  color: white;
+}
+.secret-guitar{
+  background-color: #573311;
+  position: fixed;
+  top: 140px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 16px;
+  font-size: 20px;
+  color: white;
+}
+.secret-lily{
+  background-color: #573311;
+  position: fixed;
+  top: 200px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 16px;
+  font-size: 20px;
+  color: white;
+}
+.secret-mirror{
+  background-color: #573311;
+  position: fixed;
+  top: 260px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 16px;
+  font-size: 20px;
+  color: white;
+}
+.secret-posters{
+  background-color: #573311;
+  position: fixed;
+  top: 320px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 16px;
+  font-size: 20px;
+  color: white;
+}
+
+.bed{
+  max-width: 23%;
+  position: fixed;
+  left: 120px;
+  top: 390px;
+  opacity:0;
+  z-index: 99;
+}
+.secret-bed:hover + .bed{
+  opacity:1;
+}
+
+.plants{
+  max-width: 23%;
+  position: absolute;
+  left: 1100px;
+  top: 400px;
+  opacity:0;
+  z-index: 99;
+}
+.secret-plants:hover + .plants{
+  opacity:1;
+}
+
+.guitar{
+  max-width: 23%;
+  position: absolute;
+  left: 800px;
+  top: 300px;
+  opacity:0;
+  z-index: 99;
+}
+.secret-guitar:hover + .guitar{
+  opacity:1;
+}
+
+.lily{
+  max-width: 23%;
+  position: absolute;
+  left: 580px;
+  top: 420px;
+  opacity:0;
+  z-index: 99;
+}
+.secret-lily:hover + .lily{
+  opacity:1;
+}
+
+.mirror{
+  max-width: 23%;
+  position: absolute;
+  left: 300px;
+  top: 190px;
+  opacity:0;
+  z-index: 99;
+}
+.secret-mirror:hover + .mirror{
+  opacity:1;
+}
+
+.posters{
+  max-width: 23%;
+  position: absolute;
+  left: 700px;
+  top: 100px;
+  opacity:0;
+  z-index: 99;
+}
+.secret-posters:hover + .posters{
+  opacity:1;
+}
+
+.button{
+  position: fixed;
+  top: 80px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  opacity: 0;
+}

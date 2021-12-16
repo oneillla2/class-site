@@ -1,0 +1,36 @@
+html{
+  background-color: #7a6251
+}
+
+.button{
+  color: white;
+  background: black;
+  border-radius: 40px;
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+}
+
+.round{
+  color: black;
+  background: white;
+  border-radius: 40px;
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+}
+
+img{
+  margin: 30px;
+  border-radius: 40px;
+  box-shadow: 20px 20px 20px #42352b;
+}
+
+img:hover {
+  animation: grow-rotate 0.75s;
+  animation-iteration-count:
+}
+
+@keyframes grow-rotate {
+  50% { transform: translate(0px, 30px) rotate(0deg); }
+}

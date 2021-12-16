@@ -1,0 +1,35 @@
+/*
+html{
+  background-color: #e0eac7
+}
+
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+a {
+  display:inline-block;
+}
+
+@keyframes shake {
+  50% { transform: translate(-2px, 4px) rotate(5deg); }
+}
+*/
+
+html{
+  background-color: #c8c4cc
+}
+
+img:hover {
+  animation: grow-rotate 0.75s;
+  animation-iteration-count:
+}
+
+a {
+  display:inline-block;
+}
+
+@keyframes grow-rotate {
+  100% { transform: translate(0px, 30px) rotate(360deg); }
+}

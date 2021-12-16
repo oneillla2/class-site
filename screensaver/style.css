@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  background-color: #191919;
+}
+
+body {
+  position: absolute;
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.organic {
+  position: absolute;
+  display: block;
+  width: 400px;
+  height: 400px;
+  top: 40px;
+  left: 40px;
+  background: linear-gradient(135deg, #FF512F, #DD2476);
+  border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%;
+  animation-name: organic;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes organic {
+    0% {border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%}
+    33% {border-radius: 30% 70% 30% 70% / 32% 30% 70% 68%;}
+    66% {border-radius: 70% 30% 70% 30% / 68% 70% 30% 32%;}
+    100% {border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%}
+}
